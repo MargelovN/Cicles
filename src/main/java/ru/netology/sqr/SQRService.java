@@ -6,7 +6,7 @@ public class SQRService {
         int number;
         for (int i = 10; i < 100; i++) {
             number = i * i;
-            if ((number > min) && (number < max)) {
+            if ((number >= min) && (number <= max)) {
                 counter = counter + 1;
             }
         }
